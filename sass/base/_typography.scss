@@ -34,7 +34,7 @@ body {
 
    &::after{
       display: block;
-      content: url(../../img/divider.png);
+      content: url(../../img/divider.PNG);
    }
 }
 
@@ -61,5 +61,4 @@ body {
    font-size: 2.3rem;
    color: $color-grey-text;
    text-align: center;
-
 }

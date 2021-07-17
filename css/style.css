@@ -59,7 +59,7 @@ body {
   margin-bottom: 2rem; }
   .heading-secondary::after {
     display: block;
-    content: url(../../img/divider.png); }
+    content: url(../../img/divider.PNG); }
 
 .heading-tertiary {
   font-weight: 700;
@@ -278,7 +278,7 @@ body {
 .section-stripe {
   max-height: 22.5rem;
   padding: 10rem 0;
-  background-image: url(../../img/stripebg.png);
+  background-image: url(../../img/stripebg.PNG);
   background-size: cover; }
 
 .section-projects {
