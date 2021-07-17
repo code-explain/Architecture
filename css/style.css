@@ -65,11 +65,19 @@ body {
   font-weight: 700;
   font-size: 1.8rem;
   color: #000; }
+  .heading-tertiary:hover {
+    color: #ffb932; }
 
 .paragraph-main {
   font-size: 1.4rem;
   color: #474747;
   transition: all .3s ease; }
+
+.section-stripe__text {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.3rem;
+  color: #e9e9e9;
+  text-align: center; }
 
 .u-center-text {
   text-align: center !important; }
@@ -150,6 +158,44 @@ body {
 .feature-box:hover .feature-box__text:after {
   background-color: #ffb932; }
 
+.project-nav {
+  text-align: center; }
+  .project-nav__link {
+    display: inline-block;
+    font-size: 1.4rem;
+    margin-right: 1rem;
+    text-transform: uppercase;
+    cursor: pointer; }
+    .project-nav__link:last-child {
+      padding-right: 0; }
+
+.project-items {
+  width: 100%; }
+
+.project-item {
+  position: relative;
+  width: 24%;
+  margin: .5rem; }
+  .project-item__img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    filter: grayscale(100%); }
+  .project-item__info {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(0, -50%);
+    opacity: 1; }
+  .project-item__title {
+    color: #ffb932; }
+  .project-item:hover .project-item__img {
+    filter: grayscale(0%);
+    transition: all .2s ease; }
+  .project-item:hover .project-item__info {
+    opacity: 0;
+    transition: all .1s ease; }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }
@@ -227,4 +273,13 @@ body {
     text-transform: uppercase; }
 
 .section-services {
+  padding: 5rem 0; }
+
+.section-stripe {
+  max-height: 22.5rem;
+  padding: 10rem 0;
+  background-image: url(../../img/stripebg.png);
+  background-size: cover; }
+
+.section-projects {
   padding: 5rem 0; }
