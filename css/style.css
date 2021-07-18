@@ -59,7 +59,7 @@ body {
   margin-bottom: 2rem; }
   .heading-secondary::after {
     display: block;
-    content: url(../../img/divider.jpg); }
+    content: url(../../img/divider1.png); }
 
 .heading-tertiary {
   font-weight: 700;
