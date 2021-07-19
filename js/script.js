@@ -17,4 +17,16 @@ $(document).ready(function () {
       return false;
    });
 
+   $(".owl-carousel").owlCarousel({
+      items: 3,
+      center: true,
+      loop: true,
+      nav: true,
+      dots: false,
+      navText: ["<i class='brands__arrow brands__arrow--l icon-arrows-circle-right'></i>", "<i class='brands__arrow brands__arrow--r icon-arrows-circle-left'></i>"],
+      // autoplay: true,
+      autoplayTimeout: 2000,
+      autoplayHoverPause: true
+   });
+
 });
