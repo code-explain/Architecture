@@ -2,6 +2,7 @@ body {
    font-family: 'Raleway', sans-serif;
    font-weight: 400;
    line-height: 1.7;
+   font-size: 1.4rem;
    color: $color-grey;
 }
 
@@ -30,11 +31,49 @@ body {
    color: $color-black;
    font-style: italic;
    font-weight: 400;
-   margin-bottom: 2rem;
 
-   &::after{
+   &--white {
+      color: $color-white;
+   }
+
+   &__divider {
+      content:"";
+      position: relative;
       display: block;
-      content: url(../img/divider1.png);
+      font-family: 'Playfair Display', serif;
+      font-size: 4rem;
+      font-style: italic;
+      font-weight: 200;
+      max-width: 13%;
+      margin: 0 auto;
+      margin-bottom: 1rem;
+
+      &::after, &::before {
+         position: absolute;
+         content: "";
+         display: block;
+         height: 0.1rem;
+         width: 4.5rem;
+         top: 50%;
+      }
+      &::after {right: 0;}   
+      &::before {left: 0;}
+
+      &--white {
+         color: $color-white;
+         
+         &::after, &::before {
+            background-color: $color-white;
+         }
+      }
+
+      &--black {
+         color: $color-black;
+
+         &::after, &::before {
+            background-color: $color-black;
+         }
+      }
    }
 }
 
@@ -48,11 +87,6 @@ body {
    }
 }
 
-.paragraph-main {
-   font-size: 1.4rem;
-   color: $color-grey;
-   transition: all .3s ease;
-}
 
 // SECTION STRIPE
 
