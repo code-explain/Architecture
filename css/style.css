@@ -227,24 +227,23 @@ body {
     display: block;
     max-width: 30%;
     margin: auto; }
+  .brands__arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem; }
+    .brands__arrow--l {
+      left: 0; }
+    .brands__arrow--r {
+      right: 0; }
 
 .owl-nav {
   width: 0; }
 
-.brands__arrow {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 2rem; }
-
-.brands__arrow--l {
-  left: 0; }
-
-.brands__arrow--r {
-  right: 0; }
-
 .testimonial {
-  margin: 0 auto; }
+  position: relative;
+  margin: 0 auto;
+  width: 70%; }
   .testimonial__text {
     font-family: 'Playfair Display', serif;
     font-style: italic;
@@ -259,6 +258,7 @@ body {
       background-color: #fff;
       margin: 2rem auto; }
   .testimonial__shape {
+    position: relative;
     width: 10rem;
     height: 10rem;
     clip-path: circle(50% at 50% 50%);
@@ -273,6 +273,16 @@ body {
     color: #ffb932; }
   .testimonial__span {
     color: #e8e8e8; }
+  .testimonial__arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    color: #fff; }
+    .testimonial__arrow--l {
+      left: 0; }
+    .testimonial__arrow--r {
+      right: 0; }
 
 .row {
   max-width: 114rem;

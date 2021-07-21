@@ -1,5 +1,7 @@
 .testimonial {
+   position: relative;
    margin: 0 auto;
+   width: 70%;
 
    &__text {
       font-family: 'Playfair Display', serif;
@@ -19,6 +21,7 @@
    }
 
    &__shape {
+      position: relative;
       width: 10rem;
       height: 10rem;
       clip-path: circle(50% at 50% 50%);
@@ -39,5 +42,21 @@
 
    &__span {
       color: $color-white-text;      
+   }
+
+   &__arrow {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 2rem;
+      color: $color-white;
+
+      &--l {
+         left: 0;
+      }
+
+      &--r {
+         right: 0;
+      }
    }
 }

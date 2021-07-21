@@ -1,0 +1,30 @@
+.brands {
+   position: relative;
+   margin: 0 auto;
+   width: 70%;
+   display: flex;
+
+   &__logo {
+      display: block;
+      max-width: 30%;
+      margin: auto;
+   }
+
+   &__arrow {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 2rem;
+
+      &--l {
+         left: 0;
+      }
+
+      &--r {
+         right: 0;
+      }
+   }
+}
+.owl-nav {
+   width: 0;
+}
