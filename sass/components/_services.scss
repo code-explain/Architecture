@@ -1,3 +1,7 @@
+.section-services {
+   padding: 5rem 0;
+}
+
 .feature-box {
    &__icon {
       display: block;
@@ -5,8 +9,9 @@
       font-size: 3rem;
       background-color: $color-grey-light-2;
       padding: 3rem;
-      margin-bottom: 3rem;
       text-align: center;
+      border-radius: 5%;
+      margin-bottom: 4rem;
 
       &:hover {
          transform: translateY(-1.5rem) scale(1.03);
@@ -26,10 +31,10 @@
       }
    }
 
-   
    &:hover .heading-tertiary {
       color: $color-primary;
    }
+
    &:hover &__text:after {
       background-color: $color-primary;
    }

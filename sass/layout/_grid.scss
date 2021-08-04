@@ -64,3 +64,15 @@
    }
 }
 
+
+// Column wide
+[class^="col-1-of-4--wide"] {
+   &:not(:last-child) {
+      margin-right: $gutter-horizontal-small !important;
+   }
+}
+
+.col-1-of-4--wide {
+   width: calc((100% - 3 * #{$gutter-horizontal-small}) / 4);
+}
+

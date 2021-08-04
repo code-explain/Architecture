@@ -10,16 +10,19 @@
 @import "base/utilities";
 
 //Components
-@import "components/button";
-@import "components/feature-box";
-@import "components/project-item";
+@import "components/header";
+@import "components/services";
+@import "components/stripe";
+@import "components/projects";
 @import "components/brands";
-@import "components/testimonial";
+@import "components/testimonials";
+@import "components/blog";
+@import "layout/footer";
+@import "components/button";
 
 //Layout
-@import "layout/footer";
+
 @import "layout/grid";
-@import "layout/header";
 @import "layout/navigation";
 
 //Pages

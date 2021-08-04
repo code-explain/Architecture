@@ -1,0 +1,25 @@
+.section-blog {
+   padding: 5rem 0;
+   background-color: $color-grey-bg;
+}
+
+.blog-features {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 3rem;
+}
+
+.blog-feature {
+   display: block;
+   background-color: $color-white;
+   padding: 3rem;
+   border-radius: 3%;
+
+   &:not(:last-child) {
+      margin-right: 3rem;
+   }
+
+   &__text {
+      margin-bottom: 3rem;
+   }
+}

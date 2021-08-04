@@ -34,5 +34,25 @@
    }
 }
 
+.btn-text {
+   &,
+   &:link,
+   &:visited {
+   display: inline-block;
+   text-decoration: none;
+   text-transform: uppercase;
+   color: $color-black;
+   font-weight: 700;
+   }
+
+   &--center {
+      &,
+      &:link,
+      &:visited {
+         margin: 0 auto;
+      }
+   }
+}
+
 
 
