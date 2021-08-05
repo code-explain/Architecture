@@ -14,8 +14,7 @@ $(document).ready(function () {
    $('.project-items').isotope({
       itemSelector: '.project-item',
       layoutMode: 'masonry',
-      sortBy: 'original-order',
-      setTimeout: 0
+      setTimeout: -1
    });
 
    $(".slider1").owlCarousel({

@@ -1,6 +1,22 @@
 .section-stripe {
-   max-height: 22.5rem;
    padding: 10rem 0;
-   background-image: url(../img/stripebg.jpg);
+   background-image: url(../img/stripebg.png);
    background-size: cover;
+
+   &--2 {
+      background-image: url(../img/stripebg2.jpg);
+      padding: 4rem 0;
+   }
+}
+
+.stripe {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 0 auto;
+
+   &__btn {
+      color: $color-white;
+      border: 1px solid $color-white;
+   }
 }

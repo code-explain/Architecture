@@ -37,7 +37,7 @@ body {
    }
 
    &__divider {
-      content:"";
+      content: "";
       position: relative;
       display: block;
       font-family: 'Playfair Display', serif;
@@ -48,7 +48,8 @@ body {
       margin: 0 auto;
       margin-bottom: 1rem;
 
-      &::after, &::before {
+      &::after,
+      &::before {
          position: absolute;
          content: "";
          display: block;
@@ -56,13 +57,20 @@ body {
          width: 4.5rem;
          top: 50%;
       }
-      &::after {right: 0;}   
-      &::before {left: 0;}
+
+      &::after {
+         right: 0;
+      }
+
+      &::before {
+         left: 0;
+      }
 
       &--white {
          color: $color-white;
-         
-         &::after, &::before {
+
+         &::after,
+         &::before {
             background-color: $color-white;
          }
       }
@@ -70,7 +78,8 @@ body {
       &--black {
          color: $color-black;
 
-         &::after, &::before {
+         &::after,
+         &::before {
             background-color: $color-black;
          }
       }
@@ -87,12 +96,10 @@ body {
    }
 }
 
-
-// SECTION STRIPE
-
-.section-stripe__text {
-   font-family: 'Playfair Display', serif;
+.stripe-p {
    font-size: 2.3rem;
    color: $color-grey-text;
+   font-family: 'Playfair Display', serif;
    text-align: center;
+   letter-spacing: 2px;
 }
