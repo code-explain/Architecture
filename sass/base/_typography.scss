@@ -90,14 +90,10 @@ body {
    font-weight: 700;
    font-size: 1.8rem;
    color: $color-black;
-
-   &:hover {
-      color: $color-primary;
-   }
 }
 
 .stripe-p {
-   font-size: 2.3rem;
+   font-size: 2rem;
    color: $color-grey-text;
    font-family: 'Playfair Display', serif;
    text-align: center;

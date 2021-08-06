@@ -5,7 +5,7 @@
 
    &--2 {
       background-image: url(../img/stripebg2.jpg);
-      padding: 4rem 0;
+      padding: 4.5rem 0;
    }
 }
 
@@ -13,7 +13,6 @@
    display: flex;
    justify-content: space-between;
    align-items: center;
-   margin: 0 auto;
 
    &__btn {
       color: $color-white;

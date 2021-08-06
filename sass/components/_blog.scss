@@ -22,4 +22,9 @@
    &__text {
       margin-bottom: 3rem;
    }
+
+   &:hover .btn-text {
+      color: $color-primary;
+      transition: all 0.3s ease;
+   }
 }

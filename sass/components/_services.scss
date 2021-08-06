@@ -33,9 +33,11 @@
 
    &:hover .heading-tertiary {
       color: $color-primary;
+      transition: all 0.3s ease;
    }
 
    &:hover &__text:after {
       background-color: $color-primary;
+      transition: all 0.3s ease;
    }
 }
