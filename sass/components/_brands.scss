@@ -8,6 +8,10 @@
       display: block;
       max-width: 30%;
       margin: auto;
+
+      @include respond(tab-port) {
+         max-width: 60%;
+      }
    }
 
    &__arrow {

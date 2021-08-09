@@ -8,7 +8,6 @@ body {
 
 .heading-primary {
    color: $color-white;
-   margin-bottom: 2rem;
 
    &--main {
       display: block;
@@ -47,6 +46,10 @@ body {
       max-width: 13%;
       margin: 0 auto;
       margin-bottom: 1rem;
+
+      @include respond(tab-port) {
+         max-width: 40%;
+      }
 
       &::after,
       &::before {

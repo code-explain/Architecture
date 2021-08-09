@@ -4,12 +4,15 @@
    padding-top: 3rem;
 
    &__list {
+      width: 45%;
       display: flex;
+      justify-content: space-between;
       list-style: none;
-   }
+      align-items: center;
 
-   &__item {
-      margin-right: 3rem;
+      @include respond(tab-land) {
+         width: 50%;
+      }
    }
 
    &__link {

@@ -9,6 +9,10 @@
    margin: 0 auto;
    width: 70%;
 
+   @include respond(tab-port) {
+      width: 100%;
+   }
+
    &__text {
       font-family: 'Playfair Display', serif;
       font-style: italic;
@@ -57,11 +61,11 @@
       color: $color-white;
 
       &--l {
-         left: 0;
+         left: -10%;
       }
 
       &--r {
-         right: 0;
+         right: -10%;
       }
    }
 }
