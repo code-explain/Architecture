@@ -11,11 +11,12 @@ $(document).ready(function () {
       return false;
    });
 
-   $('.project-items').isotope({
-      itemSelector: '.project-item',
-      layoutMode: 'masonry',
-      setTimeout: -1
-   });
+   setTimeout(function () {
+      $('.project-items').isotope({
+         itemSelector: '.project-item',
+         layoutMode: 'masonry',
+      });
+   }, 2000)
 
    $(".slider1").owlCarousel({
       items: 3,
